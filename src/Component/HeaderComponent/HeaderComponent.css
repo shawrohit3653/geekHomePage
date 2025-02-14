@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.left-nav {
+    margin-left: 100px;
+    display: flex;
+    gap: 0px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-weight: bold;
+}
+a:hover{
+color: rgb(74, 74, 169);
+}
+
+button {
+    margin-right: 100px;
+    width: 120px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+.ham {
+    width: 30px;
+    margin-top: 9px;
+    display: none;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+@media (max-width: 768px) {
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 20px;
+        flex-wrap:wrap;
+    }
+    
+    .left-nav {
+        margin-left: 0; /* Remove unnecessary margin */
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .ham {
+        display: block;
+        margin-left: auto; /* Aligns it to the right properly */
+    }
+}
+

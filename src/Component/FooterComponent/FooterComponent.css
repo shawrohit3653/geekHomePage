@@ -1,0 +1,28 @@
+.footerContainer{
+    text-align: center;
+    background-color: rgb(186, 184, 184);
+}
+.img-logo{
+    margin-top: 50px;
+    color: green;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+.para{
+    font-size: 1rem;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.logoList{
+    width: 30px;
+    display: flex;
+    margin-left: 680px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
