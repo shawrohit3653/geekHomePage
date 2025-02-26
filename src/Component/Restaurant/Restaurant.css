@@ -1,0 +1,7 @@
+.rest-container {
+    display: flex;  /* Enables side-by-side layout */
+    flex-wrap: wrap;  /* Wraps cards to the next row if needed */
+    gap: 15px;  /* Adds spacing between cards */
+    justify-content: center;  /* Centers the cards */
+    padding: 20px;
+}
